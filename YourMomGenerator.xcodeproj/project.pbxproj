@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		E88DC50A225E77F000E22F8F /* YourMomGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YourMomGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		E88DC50D225E77F000E22F8F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E894EFC4225E9C8E0086CF5D /* catch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = catch.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		E88DC50C225E77F000E22F8F /* YourMomGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				E894EFC4225E9C8E0086CF5D /* catch.hpp */,
 				E88DC50D225E77F000E22F8F /* main.cpp */,
 			);
 			path = YourMomGenerator;
