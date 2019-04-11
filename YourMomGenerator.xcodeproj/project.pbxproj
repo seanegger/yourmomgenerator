@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E88DC50E225E77F000E22F8F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E88DC50D225E77F000E22F8F /* main.cpp */; };
+		29FECD72225EE7D900CEADD9 /* YourMomTextPaser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29FECD70225EE7D900CEADD9 /* YourMomTextPaser.cpp */; };
+		29FECD76225EE82F00CEADD9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29FECD75225EE82E00CEADD9 /* main.cpp */; };
+		E894EFC7225FADBD0086CF5D /* TestYourMom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E894EFC5225FADBD0086CF5D /* TestYourMom.cpp */; };
+		E894EFCC225FB6D20086CF5D /* InputGatherer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E894EFCA225FB6D20086CF5D /* InputGatherer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +26,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		29FECD70225EE7D900CEADD9 /* YourMomTextPaser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YourMomTextPaser.cpp; sourceTree = "<group>"; };
+		29FECD71225EE7D900CEADD9 /* YourMomTextPaser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YourMomTextPaser.h; sourceTree = "<group>"; };
+		29FECD75225EE82E00CEADD9 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E88DC50A225E77F000E22F8F /* YourMomGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YourMomGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
-		E88DC50D225E77F000E22F8F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		E894EFC4225E9C8E0086CF5D /* catch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = catch.hpp; sourceTree = "<group>"; };
+		E894EFC5225FADBD0086CF5D /* TestYourMom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestYourMom.cpp; sourceTree = "<group>"; };
+		E894EFC8225FAE040086CF5D /* catch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = catch.hpp; sourceTree = "<group>"; };
+		E894EFCA225FB6D20086CF5D /* InputGatherer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputGatherer.cpp; sourceTree = "<group>"; };
+		E894EFCB225FB6D20086CF5D /* InputGatherer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InputGatherer.hpp; sourceTree = "<group>"; };
+		E894EFCD225FC1A30086CF5D /* test_verb_file */ = {isa = PBXFileReference; lastKnownFileType = text; path = test_verb_file; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +67,24 @@
 		E88DC50C225E77F000E22F8F /* YourMomGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				E894EFC4225E9C8E0086CF5D /* catch.hpp */,
-				E88DC50D225E77F000E22F8F /* main.cpp */,
+				E894EFC9225FB6400086CF5D /* Tests */,
+				29FECD75225EE82E00CEADD9 /* main.cpp */,
+				29FECD71225EE7D900CEADD9 /* YourMomTextPaser.h */,
+				29FECD70225EE7D900CEADD9 /* YourMomTextPaser.cpp */,
+				E894EFC8225FAE040086CF5D /* catch.hpp */,
+				E894EFCA225FB6D20086CF5D /* InputGatherer.cpp */,
+				E894EFCB225FB6D20086CF5D /* InputGatherer.hpp */,
 			);
 			path = YourMomGenerator;
+			sourceTree = "<group>";
+		};
+		E894EFC9225FB6400086CF5D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E894EFC5225FADBD0086CF5D /* TestYourMom.cpp */,
+				E894EFCD225FC1A30086CF5D /* test_verb_file */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E88DC50E225E77F000E22F8F /* main.cpp in Sources */,
+				E894EFCC225FB6D20086CF5D /* InputGatherer.cpp in Sources */,
+				29FECD72225EE7D900CEADD9 /* YourMomTextPaser.cpp in Sources */,
+				E894EFC7225FADBD0086CF5D /* TestYourMom.cpp in Sources */,
+				29FECD76225EE82F00CEADD9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
