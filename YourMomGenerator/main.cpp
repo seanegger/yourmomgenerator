@@ -16,6 +16,13 @@
 //    return 0;
 //}
 
+std::string getTextInput() {
+    std::cout << "Please input sentence to produce zingers.";
+    std::string x = "";
+    std::cin >> x;
+    return x;
+}
+
 unsigned int Factorial( unsigned int number ) {
     return number <= 1 ? number : Factorial(number-1)*number;
 }
