@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E88DC50E225E77F000E22F8F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E88DC50D225E77F000E22F8F /* main.cpp */; };
+		29FE893D225E9AAE006DF05F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29FE893C225E9AAE006DF05F /* main.cpp */; };
+		29FECD6A225EC83E00CEADD9 /* YourMomTextPaser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29FECD68225EC83E00CEADD9 /* YourMomTextPaser.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E88DC508225E77F000E22F8F /* CopyFiles */ = {
+		29FE8937225E9AAE006DF05F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,13 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E88DC50A225E77F000E22F8F /* YourMomGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YourMomGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
-		E88DC50D225E77F000E22F8F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		E894EFC4225E9C8E0086CF5D /* catch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = catch.hpp; sourceTree = "<group>"; };
+		29FE8939225E9AAE006DF05F /* yourMomApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = yourMomApp; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FE893C225E9AAE006DF05F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		29FECD68225EC83E00CEADD9 /* YourMomTextPaser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = YourMomTextPaser.cpp; sourceTree = "<group>"; };
+		29FECD69225EC83E00CEADD9 /* YourMomTextPaser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YourMomTextPaser.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E88DC507225E77F000E22F8F /* Frameworks */ = {
+		29FE8936225E9AAE006DF05F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,95 +41,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E88DC501225E77F000E22F8F = {
+		29FE8930225E9AAE006DF05F = {
 			isa = PBXGroup;
 			children = (
-				E88DC50C225E77F000E22F8F /* YourMomGenerator */,
-				E88DC50B225E77F000E22F8F /* Products */,
+				29FE893B225E9AAE006DF05F /* yourMomApp */,
+				29FE893A225E9AAE006DF05F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E88DC50B225E77F000E22F8F /* Products */ = {
+		29FE893A225E9AAE006DF05F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E88DC50A225E77F000E22F8F /* YourMomGenerator */,
+				29FE8939225E9AAE006DF05F /* yourMomApp */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E88DC50C225E77F000E22F8F /* YourMomGenerator */ = {
+		29FE893B225E9AAE006DF05F /* yourMomApp */ = {
 			isa = PBXGroup;
 			children = (
-				E894EFC4225E9C8E0086CF5D /* catch.hpp */,
-				E88DC50D225E77F000E22F8F /* main.cpp */,
+				29FE893C225E9AAE006DF05F /* main.cpp */,
+				29FECD69225EC83E00CEADD9 /* YourMomTextPaser.h */,
+				29FECD68225EC83E00CEADD9 /* YourMomTextPaser.cpp */,
 			);
-			path = YourMomGenerator;
+			path = yourMomApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E88DC509225E77F000E22F8F /* YourMomGenerator */ = {
+		29FE8938225E9AAE006DF05F /* yourMomApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E88DC511225E77F000E22F8F /* Build configuration list for PBXNativeTarget "YourMomGenerator" */;
+			buildConfigurationList = 29FE8940225E9AAE006DF05F /* Build configuration list for PBXNativeTarget "yourMomApp" */;
 			buildPhases = (
-				E88DC506225E77F000E22F8F /* Sources */,
-				E88DC507225E77F000E22F8F /* Frameworks */,
-				E88DC508225E77F000E22F8F /* CopyFiles */,
+				29FE8935225E9AAE006DF05F /* Sources */,
+				29FE8936225E9AAE006DF05F /* Frameworks */,
+				29FE8937225E9AAE006DF05F /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = YourMomGenerator;
-			productName = YourMomGenerator;
-			productReference = E88DC50A225E77F000E22F8F /* YourMomGenerator */;
+			name = yourMomApp;
+			productName = yourMomApp;
+			productReference = 29FE8939225E9AAE006DF05F /* yourMomApp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E88DC502225E77F000E22F8F /* Project object */ = {
+		29FE8931225E9AAE006DF05F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = "Sean Egger";
+				ORGANIZATIONNAME = Awesome;
 				TargetAttributes = {
-					E88DC509225E77F000E22F8F = {
+					29FE8938225E9AAE006DF05F = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = E88DC505225E77F000E22F8F /* Build configuration list for PBXProject "YourMomGenerator" */;
+			buildConfigurationList = 29FE8934225E9AAE006DF05F /* Build configuration list for PBXProject "yourMomApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = E88DC501225E77F000E22F8F;
-			productRefGroup = E88DC50B225E77F000E22F8F /* Products */;
+			mainGroup = 29FE8930225E9AAE006DF05F;
+			productRefGroup = 29FE893A225E9AAE006DF05F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E88DC509225E77F000E22F8F /* YourMomGenerator */,
+				29FE8938225E9AAE006DF05F /* yourMomApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E88DC506225E77F000E22F8F /* Sources */ = {
+		29FE8935225E9AAE006DF05F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E88DC50E225E77F000E22F8F /* main.cpp in Sources */,
+				29FE893D225E9AAE006DF05F /* main.cpp in Sources */,
+				29FECD6A225EC83E00CEADD9 /* YourMomTextPaser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E88DC50F225E77F000E22F8F /* Debug */ = {
+		29FE893E225E9AAE006DF05F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,7 +182,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -186,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		E88DC510225E77F000E22F8F /* Release */ = {
+		29FE893F225E9AAE006DF05F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,22 +235,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		E88DC512225E77F000E22F8F /* Debug */ = {
+		29FE8941225E9AAE006DF05F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SYSTEM_HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
 			};
 			name = Debug;
 		};
-		E88DC513225E77F000E22F8F /* Release */ = {
+		29FE8942225E9AAE006DF05F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -257,25 +262,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E88DC505225E77F000E22F8F /* Build configuration list for PBXProject "YourMomGenerator" */ = {
+		29FE8934225E9AAE006DF05F /* Build configuration list for PBXProject "yourMomApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E88DC50F225E77F000E22F8F /* Debug */,
-				E88DC510225E77F000E22F8F /* Release */,
+				29FE893E225E9AAE006DF05F /* Debug */,
+				29FE893F225E9AAE006DF05F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E88DC511225E77F000E22F8F /* Build configuration list for PBXNativeTarget "YourMomGenerator" */ = {
+		29FE8940225E9AAE006DF05F /* Build configuration list for PBXNativeTarget "yourMomApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E88DC512225E77F000E22F8F /* Debug */,
-				E88DC513225E77F000E22F8F /* Release */,
+				29FE8941225E9AAE006DF05F /* Debug */,
+				29FE8942225E9AAE006DF05F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E88DC502225E77F000E22F8F /* Project object */;
+	rootObject = 29FE8931225E9AAE006DF05F /* Project object */;
 }
